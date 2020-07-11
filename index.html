@@ -185,8 +185,8 @@
     <div class="container-fluid">
         <div class="row mb-5">
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-12 mb-4 mb-xl-0">
                         <h3 class="text-muted text-center mb-3">staff Salary</h3>
                         <table class="table table-striped bg-light text-center">
                             <thead>
@@ -266,7 +266,93 @@
                         </ul>
                         <!-- End of pagination -->
                     </div>
-                    <div class="col-12">
+                    <div class="col-xl-6 col-12">
+                        <h3 class="text-muted text-center mb-3">Recent Payments</h3>
+                        <table class="table table-dark table-hover text-center">
+                            <thead>
+                                <tr class="text-muted">
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <td>Ernest</td>
+                                    <td>$234,000</td>
+                                    <td>20/07/2020</td>
+                                    <td><span class="badge badge-success w-75 py-2">Approved</span></td>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td>Elvis</td>
+                                    <td>$234,000</td>
+                                    <td>20/07/2020</td>
+                                    <td><span class="badge badge-success w-75 py-2">Approved</span></td>
+                                </tr>
+                                <tr>
+                                    <th>3</th>
+                                    <td>Nick</td>
+                                    <td>$234,000</td>
+                                    <td>20/07/2020</td>
+                                    <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <th>4</th>
+                                    <td>Jane</td>
+                                    <td>$234,000</td>
+                                    <td>20/07/2020</td>
+                                    <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <th>5</th>
+                                    <td>Michael</td>
+                                    <td>$234,000</td>
+                                    <td>20/07/2020</td>
+                                    <td><span class="badge badge-success w-75 py-2">Approved</span></td>
+                                </tr>
+                                <tr>
+                                    <th>6</th>
+                                    <td>Keith</td>
+                                    <td>$234,000</td>
+                                    <td>20/07/2020</td>
+                                    <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                         <!-- pagination -->
+                         <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                                <a href="#" class="page-link py-2 px-3">
+                                    <span>Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item active">
+                                <a href="#" class="page-link py-2 px-3">
+                                    <span>1</span>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link py-2 px-3">
+                                    <span>2</span>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link py-2 px-3">
+                                    <span>3</span>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link py-2 px-3">
+                                    <span>Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- End of pagination -->
                         
                     </div>
                 </div>
@@ -274,6 +360,131 @@
         </div>
     </div>
     <!-- end of tables -->
+
+    <!-- Progress/task list -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <div class="row mb-4 align-items-center">
+                        <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+                            <div class="bg-dark text-light p-4 rounded">
+                                <h4 class="mb-5">Conversion Rates</h4>
+                                <h6 class="mb-3">Google Chrome</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold" style="width: 91%;">
+                                        91%
+                                    </div>
+                                </div>
+                                <h6 class="mb-3">Mozilla firefox</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-success" style="width: 82%;">
+                                        82%
+                                    </div>
+                                </div>
+                                <h6 class="mb-3">Safari</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-danger" style="width: 67%;">
+                                        67%
+                                    </div>
+                                </div>
+                                <h6 class="mb-3">Internet Explorer</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-info" style="width: 10%;">
+                                        10%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-12">
+                            <h4 class="text-muted p-3 mb-3">Tasks:</h4> 
+                            <div class="container-fluid bg-light">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor s ab officia tempora nisi! Repellendus.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit" data-placement="top"><i class="fas fa-edit fa-lg text-success mr-2"></i></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete" data-placement="top"><i class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid bg-light">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor s ab officia tempora nisi! Repellendus.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit" data-placement="top"><i class="fas fa-edit fa-lg text-success mr-2"></i></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete" data-placement="top"><i class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid bg-light">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor s ab officia tempora nisi! Repellendus.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit" data-placement="top"><i class="fas fa-edit fa-lg text-success mr-2"></i></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete" data-placement="top"><i class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid bg-light">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor s ab officia tempora nisi! Repellendus.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit" data-placement="top"><i class="fas fa-edit fa-lg text-success mr-2"></i></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete" data-placement="top"><i class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid bg-light">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor s ab officia tempora nisi! Repellendus.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit" data-placement="top"><i class="fas fa-edit fa-lg text-success mr-2"></i></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete" data-placement="top"><i class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Progress/task list -->
   
 
 
@@ -282,6 +493,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
